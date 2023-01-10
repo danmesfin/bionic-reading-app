@@ -7,7 +7,7 @@
 First, clone this repository to your local machine:
 
 ```bash
-git clone http://github.com/danmesfin/Nextjs-starter-Template.git <my-project-name>
+git clone http://github.com/danmesfin/Nextjs-Starter-Template_v2.git <my-project-name>
 npm install
 ```
 
