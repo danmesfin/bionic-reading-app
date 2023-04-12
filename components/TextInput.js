@@ -22,14 +22,15 @@ export default function TextInput() {
         className="h-4/5 border rounded-lg p-2 resize-none overflow-y-auto"
         onChange={handleChange}
       />
-
-      <button
-        className="bg-blue-600 hover:shadow-lg hover:bg-blue-500 w-[50%] py-1 mx-auto my-4 rounded-lg"
-        type="submit"
-        onClick={handleSubmit}
-      >
-        Submit
-      </button>
+      <div className="mt-4 h-1/6 flex flex-row items-center justify-cente">
+        <button
+          className="bg-blue-600 hover:shadow-lg hover:bg-blue-500 w-[50%] py-1 mx-auto my-4 rounded-lg"
+          type="submit"
+          onClick={handleSubmit}
+        >
+          Submit
+        </button>
+      </div>
     </div>
   );
 }
