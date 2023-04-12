@@ -16,9 +16,20 @@ export default function TextInput() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" value={text} onChange={handleChange} />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="bg-gray-100 p-4 flex-1 md:h-auto md:w-1/2 flex flex-col">
+      <h2 className="text-lg font-bold mb-2">Enter your text</h2>
+      <textarea
+        className="h-full border rounded-lg p-2 resize-none overflow-y-auto"
+        onChange={handleChange}
+      />
+
+      <button
+        className="bg-blue-600 hover:shadow-lg hover:bg-blue-500 w-[50%] py-1 mx-auto my-4 rounded-lg"
+        type="submit"
+        onClick={handleSubmit}
+      >
+        Submit
+      </button>
+    </div>
   );
 }
