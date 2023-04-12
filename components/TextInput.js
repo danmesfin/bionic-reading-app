@@ -24,7 +24,7 @@ export default function TextInput() {
       />
       <div className="mt-4 h-1/6 flex flex-row items-center justify-cente">
         <button
-          className="bg-blue-600 hover:shadow-lg hover:bg-blue-500 w-[50%] py-1 mx-auto my-4 rounded-lg"
+          className="bg-blue-600 hover:shadow-lg hover:bg-blue-700 w-[50%] py-1 mx-auto my-4 rounded-lg"
           type="submit"
           onClick={handleSubmit}
         >

@@ -21,7 +21,7 @@ export default function Footer() {
             <FaTwitter className="text-white text-2xl mx-2 hover:text-gray-500" />
           </a>
           <a
-            href="https://www.linkedin.com/company/bionic-reading-app"
+            href="https://www.linkedin.com/in/danielmesfin"
             target="_blank"
             rel="noopener noreferrer"
           >
