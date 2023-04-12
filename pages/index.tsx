@@ -18,12 +18,9 @@ const IndexPage = () => {
         </>
 
         {/* Formatted text */}
-        <div className="bg-gray-200 p-4 flex-1 md:h-auto md:w-1/2 flex flex-col">
-          <h2 className="text-lg font-bold mb-2">Formatted text</h2>
-          <div className="flex-1 overflow-y-auto">
-            <FormattedText />
-          </div>
-        </div>
+        <>
+          <FormattedText />
+        </>
       </main>
     </div>
   );
