@@ -1,7 +1,7 @@
 import React from "react";
 import FormattedText from "../components/FormattedText";
 import TextInput from "../components/TextInput";
-
+import Footer from "../components/Footer";
 const IndexPage = () => {
   return (
     <div className="flex flex-col h-screen">
@@ -22,6 +22,7 @@ const IndexPage = () => {
           <FormattedText />
         </>
       </main>
+      <Footer />
     </div>
   );
 };
